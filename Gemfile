@@ -5,6 +5,7 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+gem 'active_model_serializers'
 gem 'bootstrap'
 gem 'coffee-rails', '~> 4.2'
 gem 'jbuilder', '~> 2.5'
